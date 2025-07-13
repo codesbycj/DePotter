@@ -30,7 +30,7 @@
                     operational
                     efficiency using cutting-edge technologies.</p>
                 <div class="link">
-                    <input type="text" placeholder="Your email Address">
+                    <input type="text" placeholder="Your email Address" class="d-none d-lg-block">
                     <a href="" class="btns">Book a Consultation</a>
 
                 </div>
@@ -167,7 +167,7 @@
 
                 </div>
 
-                <div class="each">
+                <div class="each d-block d-md-none d-lg-block">
                     <div class="image">
                         <img src="assets/services003.png" alt="">
                     </div>
