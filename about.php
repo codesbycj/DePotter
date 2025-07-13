@@ -131,7 +131,7 @@
             </div>
             <div class="each">
                 <div class="head mb-4">
-                    <i class="fa-solid fa-eye"></i>
+                    <i class="fa-solid fa-handshake"></i>
                     <h2>Our Promise</h2>
                 </div>
 
