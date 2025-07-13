@@ -657,11 +657,188 @@ nav .right a {
 }
 
 .contact button {
-  padding: 1rem ;
+  padding: 1rem;
   background-color: var(--color-secondary);
   border: none;
   outline: none;
   border-radius: 10px;
   font-weight: 600;
   color: var(--color-primary);
+}
+
+/* SERVICES */
+/* SERVICES */
+/* SERVICES */
+/* SERVICES */
+/* SERVICES */
+
+#servicesHero {
+  height: 90vh;
+}
+
+.servicesHero {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.servicesHero .right {
+  height: 100%;
+  width: 50%;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1)),
+    url("assets/10001.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.servicesHero .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.servicesHero .left p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.servicesHero .left h2 {
+  font-size: 50px;
+  position: relative;
+  color: var(--color-primary);
+  font-weight: 800;
+}
+
+.servicesHero .left h2::after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: -2rem;
+  height: 5px;
+  width: 100px;
+  background-color: var(--color-secondary);
+}
+
+.servicesHero .right img {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(29% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.servicesHero .left .btns {
+  padding: 1rem 3rem;
+  width: fit-content;
+  border: 2px solid var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 2px 5px 10px var(--color-secondary);
+  color: var(--color-primary);
+  transition: 0.5s ease;
+}
+
+.servicesHero .left .btns:hover {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+/* WHAT WE DO  */
+/* WHAT WE DO  */
+/* WHAT WE DO  */
+/* WHAT WE DO  */
+/* WHAT WE DO  */
+/* WHAT WE DO  */
+
+.wwd .bottom {
+  margin-top: 4rem;
+  position: relative;
+}
+
+.wwd .bottom .values .each .svg,
+.wwd .bottom .threeEach .each .svg {
+  padding: 2rem;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #0a2463 0%, #1a3a8f 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(10, 36, 99, 0.15);
+}
+
+.wwd .bottom .values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+  overflow-x: hidden;
+  padding: 3rem 2rem;
+  /* background-color: var(--color-primary);
+  border-radius: 30px;
+  z-index: 3; */
+}
+
+.wwd .bottom .values .eachF {
+  background: linear-gradient(
+    to top left,
+    var(--color-light) 85%,
+    var(--color-primary)
+  );
+}
+
+.wwd .bottom .values .eachL {
+  background: linear-gradient(
+    to bottom right,
+    var(--color-light) 80%,
+    var(--color-primary)
+  );
+}
+
+.wwd .bottom .values .each,
+.wwd .bottom .threeEach .each {
+  padding: 3rem 2rem;
+  background-color: var(--color-light);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(10, 36, 99, 0.15);
+}
+
+.wwd .eachW {
+  width: 270px;
+}
+
+.wwd .eachF .svg {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.wwd .eachF:nth-child(2) .svg {
+  background: var(--color-secondary) !important;
+}
+
+/* .wwd .eachW i {
+  color: var(--color-secondary);
+  font-size: px;
+} */
+
+.wwd .bottom .values .each i,
+.wwd .bottom .threeEach .each i {
+  color: var(--color-secondary);
+  font-size: 28px;
+}
+
+.wwd .bottom img {
+  width: 80px;
+}
+
+.wwd .threeEach {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
 }

@@ -5,7 +5,7 @@
                 <div class="navbar-nav d-flex gap-5">
                     <a class="nav-link active" aria-current="page" href="home.php">Home</a>
                     <a class="nav-link" href="about.php">About</a>
-                    <a class="nav-link" href="service.php">Services</a>
+                    <a class="nav-link" href="services.php">Services</a>
                 </div>
             </div>
 
