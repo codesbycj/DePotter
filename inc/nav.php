@@ -9,12 +9,12 @@
                 </div>
             </div>
 
-            <div class="container-fluid m-auto d-flex justify-content-center">
+            <div class="container-fluid m-auto d-flex justify-content-center toggle">
                 <img src="assets/logo.png" class="navbar-brand m-auto" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars-staggered"></i>
                 </button>
             </div>
 

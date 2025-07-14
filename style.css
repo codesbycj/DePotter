@@ -50,6 +50,15 @@ nav .right a {
   text-align: end !important;
 }
 
+nav .navbar-toggler {
+  border: unset;
+  outline: unset;
+}
+
+nav .navbar-toggler:focus {
+  box-shadow: unset;
+}
+
 /* HERO SECTION */
 #hero {
   height: 100vh;
@@ -705,6 +714,25 @@ nav .right a {
   padding: 5rem 0;
 }
 
+@media (max-width: 990px) {
+  .story .bottom .left {
+    width: 100%;
+  }
+
+  .ssion {
+    flex-direction: column;
+  }
+
+  .ssion .each {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .team .leaders {
+    flex-direction: column;
+  }
+}
+
 /* CONTACT */
 /* CONTACT */
 /* CONTACT */
@@ -721,7 +749,7 @@ nav .right a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 .contact .content .right {
@@ -738,9 +766,6 @@ nav .right a {
 .contact form input {
   height: 40px;
   padding: 0 1rem;
-}
-
-.contact form input::placeholder {
 }
 
 .contact form .question {
@@ -801,6 +826,22 @@ nav .right a {
   color: var(--color-primary);
 }
 
+@media (max-width: 990px) {
+  .contact .content {
+    flex-direction: column;
+    gap: 5rem ;
+  }
+
+  .content .left {
+    width: 100%;
+    margin: auto;
+  }
+
+  .contact .left .hours {
+    width: 100%;
+  }
+}
+
 /* SERVICES */
 /* SERVICES */
 /* SERVICES */
@@ -808,6 +849,7 @@ nav .right a {
 /* SERVICES */
 
 #servicesHero {
+  padding: 2rem 0;
   height: 90vh;
 }
 
@@ -976,4 +1018,29 @@ nav .right a {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 3rem;
   margin-top: 3rem;
+}
+
+
+@media (max-width: 990px) {
+
+
+  .servicesHero {
+    flex-direction: column;
+  }
+
+  .servicesHero .left {
+    width: 100%;
+  }
+
+  .servicesHero .left h2 {
+    font-size: 35px !important;
+  }
+
+  .servicesHero .left p {
+    font-size: .9rem;
+  }
+  .wwd .values {
+    grid-template-columns: 1fr !important;
+    margin-top: unset !important;  
+  }
 }

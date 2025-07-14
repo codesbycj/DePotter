@@ -35,7 +35,7 @@
                 <a href="" class="btns text-uppercase">Book a Consultation</a>
             </div>
 
-            <div class="right">
+            <div class="right d-none d-md-block">
                 <img src="" alt="">
             </div>
         </div>
@@ -58,7 +58,7 @@
 
                         <h1 class="fw-bold"> Surveillance and Security Systems</h1>
                     </div>
-                    <div class="each eachW">
+                    <div class="each eachW d-none d-lg-block">
                         <div class="svg mb-4">
                             <i class="fa-solid fa-camera-retro"></i>
                         </div>
@@ -68,8 +68,8 @@
 
                         <p class="my-0">High-resolution monitoring with 24/7 recording and remote access</p>
                     </div>
-                    <div class="threeEach">
-                        <div class="each eachW">
+                    <div class="threeEach d-none d-lg-grid">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-universal-access"></i>
                             </div>
@@ -80,7 +80,7 @@
                             <p class="my-0">Biometric and card-based entry for restricted areas.</p>
                         </div>
 
-                        <div class="each eachW">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-bell"></i>
                             </div>
@@ -90,7 +90,7 @@
                             <p class="my-0">Early smoke detection with automated emergency alerts.</p>
                         </div>
 
-                        <div class="each eachW">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-car"></i>
                             </div>
@@ -101,7 +101,7 @@
                         </div>
                     </div>
 
-                    <div class="each eachW eachL mt-5">
+                    <div class="each eachW eachL mt-5 d-none d-lg-block">
                         <div class="svg mb-4">
                             <i class="fa-solid fa-user-secret"></i>
                         </div>
@@ -122,7 +122,7 @@
 
                         <h1 class="fw-bold">Smart Automation and Control</h1>
                     </div>
-                    <div class="each eachW">
+                    <div class="each eachW d-none d-lg-block">
                         <div class="svg mb-4">
                             <i class="fa-solid fa-torii-gate"></i>
                         </div>
@@ -133,8 +133,8 @@
 
                         <p class="my-0">Hands-free entry with motion sensors.</p>
                     </div>
-                    <div class="threeEach">
-                        <div class="each eachW">
+                    <div class="threeEach d-none d-lg-grid">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-building"></i>
                             </div>
@@ -145,7 +145,7 @@
                             <p class="my-0"> Centralized control of lighting, climate, security.</p>
                         </div>
 
-                        <div class="each eachW">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-walkie-talkie"></i>
                             </div>
@@ -156,7 +156,7 @@
                             <p class="my-0">Secure audio/video communication between entry points.</p>
                         </div>
 
-                        <div class="each eachW">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-lock"></i>
                             </div>
@@ -168,7 +168,7 @@
                         </div>
                     </div>
 
-                    <div class="each eachW eachL mt-5">
+                    <div class="each eachW eachL d-none d-lg-block mt-5">
                         <div class="svg mb-4">
                             <i class="fa-solid fa-tv"></i>
                         </div>
@@ -189,7 +189,7 @@
                         <h1 class="fw-bold"> Power, Connectivity &
                             Communication</h1>
                     </div>
-                    <div class="each eachW">
+                    <div class="each eachW d-none d-lg-block">
                         <div class="svg mb-4">
                             <i class="fa-solid fa-bolt"></i>
                         </div>
@@ -199,8 +199,8 @@
 
                         <p class="my-0"> Renewable energy for uninterrupted security operations.</p>
                     </div>
-                    <div class="threeEach">
-                        <div class="each eachW">
+                    <div class="threeEach d-none d-lg-grid">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-walkie-talkie"></i>
                             </div>
@@ -211,7 +211,7 @@
                             <p class="my-0">Instant communication for security personnel teams.</p>
                         </div>
 
-                        <div class="each eachW">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-globe"></i>
                             </div>
@@ -222,7 +222,7 @@
                             <p class="my-0">Robust infrastructure for data and surveillance.</p>
                         </div>
 
-                        <div class="each eachW">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-plug"></i>
                             </div>
@@ -234,7 +234,7 @@
                         </div>
                     </div>
 
-                    <div class="each eachW eachL mt-5">
+                    <div class="each eachW eachL d-none d-lg-block mt-5">
                         <div class="svg mb-4">
                             <i class="fa-solid fa-anchor-circle-check"></i>
                         </div>
@@ -253,7 +253,7 @@
 
                         <h1 class="fw-bold">General Contracts and Supply</h1>
                     </div>
-                    <div class="each eachW">
+                    <div class="each eachW d-none d-lg-block">
                         <div class="svg mb-4">
                             <i class="fa-solid fa-truck-field"></i>
                         </div>
@@ -263,8 +263,8 @@
 
                         <p class="my-0">Reliable procurement of security equipment.</p>
                     </div>
-                    <div class="threeEach">
-                        <div class="each eachW">
+                    <div class="threeEach d-none d-lg-grid">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-brands fa-intercom"></i>
                             </div>
@@ -275,7 +275,7 @@
                             <p class="my-0">Global logistics for security technology.</p>
                         </div>
 
-                        <div class="each eachW">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-money-bill"></i>
                             </div>
@@ -285,7 +285,7 @@
                             <p class="my-0"> Sourcing all necessary security components.</p>
                         </div>
 
-                        <div class="each eachW">
+                        <div class="each eachW d-none d-lg-block">
                             <div class="svg mb-4">
                                 <i class="fa-solid fa-toolbox"></i>
                             </div>
@@ -297,7 +297,7 @@
                         </div>
                     </div>
 
-                    <div class="each eachW eachL mt-5">
+                    <div class="each eachW eachL d-none d-lg-block mt-5">
                         <div class="svg mb-4">
                             <i class="fa-solid fa-laptop"></i>
                         </div>

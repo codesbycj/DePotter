@@ -91,7 +91,7 @@
                     </div>
                 </div>
 
-                <div class="right">
+                <div class="right d-none d-lg-block">
                     <img src="assets/about.avif" alt="" srcset="">
                 </div>
             </div>

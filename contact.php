@@ -24,15 +24,15 @@
     <!-- CONTACT -->
     <div id="contact">
         <div class="contact container">
-            <div class="top text-center w-50 m-auto">
+            <div class="top text-center w-75 m-auto mb-5 d-none d-md-block">
                 <h1>Get in Touch with Us</h1>
                 <p>Have questions about our security solutions? Our team is ready to provide expert advice and customized recommendations for your specific needs.</p>
             </div>
 
             <div class="content">
                 <div class="left">
-                    <h2 class="my-0">Contact Information</h2>
-                    <p class="mb-5">Reach out to us through any of these channels <br /> and we'll respond promptly to your inquiry.</p>
+                    <h2 class="my-0 text-center text-lg-start">Contact Information</h2>
+                    <p class="mb-5 text-center text-lg-start">Reach out to us through any of these channels <br /> and we'll respond promptly to your inquiry.</p>
 
                     <div class="details">
                         <div class="each">
